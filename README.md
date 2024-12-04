@@ -1,7 +1,7 @@
 # Iris_Flower CLassifier
  
 This project will classify iris flowers based on the given inputs into their respectives species
-
+The algorithm is implemented from using Sequential neural network with categorical cross-entropy as the accuracy metric
 
 The problem is comprised of 150 observations of iris flowers from three different species.
 
