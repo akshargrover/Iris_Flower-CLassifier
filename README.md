@@ -43,9 +43,15 @@ The model is built using a Sequential neural network with the following layers:
 - Hidden layers: Two dense layers with ReLU activation functions.
 - Output layer: A softmax layer that outputs the probabilities of each species.
 
+### Optimizer and Loss Function
+
+The model utilizes the **Adam optimizer**, which is an adaptive learning rate optimization algorithm. It combines the advantages of two other extensions of stochastic gradient descent, namely AdaGrad and RMSProp. Adam is particularly effective for training deep learning models as it adjusts the learning rate for each parameter individually, leading to faster convergence.
+
+The loss function used is **categorical cross-entropy**, which measures the dissimilarity between the predicted probability distribution and the true distribution. This loss function is suitable for multi-class classification problems, as it penalizes the model more when it is confident about an incorrect prediction.
+
 ## Results
 
-The model achieves an accuracy of approximately XX% on the test dataset. You can visualize the results using the provided plots in the Jupyter Notebook.
+The model achieves an accuracy of approximately 97% on the test dataset. You can visualize the results using the provided plots in the Jupyter Notebook.
 
 ## Contributing
 
