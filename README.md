@@ -1,7 +1,6 @@
-# Iris_Flower CLassifier
- 
-This project will classify iris flowers based on the given inputs into their respectives species
-The algorithm is implemented from using Sequential neural network with categorical cross-entropy as the accuracy metric
+# Iris_Flower Classifier
+
+This project will classify iris flowers based on the given inputs into their respective species. The algorithm is implemented using a Sequential neural network with categorical cross-entropy as the accuracy metric.
 
 The problem is comprised of 150 observations of iris flowers from three different species.
 
@@ -11,4 +10,47 @@ Classification is done on features:
 3. petal length
 4. petal width (all in the same unit of centimeters).
 
-The predicted attribute is the species, which is one of Iris-setosa, Iris-versicolor or Iris-virginica.
+The predicted attribute is the species, which is one of Iris-setosa, Iris-versicolor, or Iris-virginica.
+
+## Installation
+
+To set up the project, clone the repository and install the required packages:
+
+```bash
+git clone https://github.com/akshargrover/Iris_Flower_Classifier.git
+cd Iris_Flower_Classifier
+pip install -r requirements.txt
+```
+
+## Usage
+
+To run the classification model, execute the following command:
+
+```bash
+python classify.py
+```
+
+You can also use the provided Jupyter Notebook for an interactive experience:
+
+```bash
+jupyter notebook iris_classifier.ipynb
+```
+
+## Model Architecture
+
+The model is built using a Sequential neural network with the following layers:
+- Input layer: Accepts the four features of the iris flowers.
+- Hidden layers: Two dense layers with ReLU activation functions.
+- Output layer: A softmax layer that outputs the probabilities of each species.
+
+## Results
+
+The model achieves an accuracy of approximately XX% on the test dataset. You can visualize the results using the provided plots in the Jupyter Notebook.
+
+## Contributing
+
+Feel free to submit issues or pull requests if you have suggestions for improvements or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
